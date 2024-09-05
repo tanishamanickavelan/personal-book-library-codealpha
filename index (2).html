@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Book Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Personal Book Library</h1>
+        
+        <!-- Search Section -->
+        <input type="text" id="search-bar" placeholder="Search by title or author">
+        
+        <!-- Filter by Category -->
+        <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="fantasy">Fantasy</option>
+        </select>
+
+        <!-- Book List -->
+        <h2>Book List</h2>
+        <div id="book-list"></div>
+
+        <!-- Borrowing History -->
+        <h2>Borrowing History</h2>
+        <div id="history-list"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
